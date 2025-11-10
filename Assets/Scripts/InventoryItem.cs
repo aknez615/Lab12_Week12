@@ -7,5 +7,10 @@ public class InventoryItem
     public int value;
     public int ID;
 
-    public List<string> items;
+    public InventoryItem(string name, int value, int ID)
+    {
+        this.name = name;
+        this.value = value;
+        this.ID = ID;
+    }
 }
